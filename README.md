@@ -4,6 +4,10 @@
 
   + Ubuntu 16.04.1 64bit
   
+### Reference
+
+  + [*Official Site*](https://www.postgresql.org/docs/9.5/)
+  
 ### Installation
 
   + `apt-get install postgresql`

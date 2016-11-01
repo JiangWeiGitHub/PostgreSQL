@@ -62,3 +62,20 @@
     create database: `sudo -u postgres createdb -O root test`
     
     delete database: `sudo -u postgres dropdb test`
+    
+  3. Use pgAdmin 4
+  
+    edit postgresql.conf
+    
+    `listen_addresses = '*'`
+    
+    edit pg_hba.conf
+    
+    ```
+      # TYPE DATABASE USER CIDR-ADDRESS  METHOD
+      host  all  all 0.0.0.0/0 md5
+    ```
+
+    add password to database
+    
+    `ALTER USER jack PASSWORD 'jack';`

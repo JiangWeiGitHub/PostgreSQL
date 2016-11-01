@@ -24,7 +24,7 @@
     
   2. Database
   
-    user `root` is not powerful under PostgreSQL enviroment, so if you want to create a new database `test`, you have to depend on user `postgres` just like:
+    user `root` is not powerful under PostgreSQL enviroment, so if you want to create a new database `test` which belongs to user `root`, you have to depend on user `postgres` just like:
     
     `sudo -u postgres createdb -O root test`
     

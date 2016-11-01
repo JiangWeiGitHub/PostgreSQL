@@ -2,13 +2,13 @@
 
 ### Platform
 
-  Ubuntu 16.04.1 64bit
+  + Ubuntu 16.04.1 64bit
   
 ### Installation
 
-  `apt-get install postgresql`
+  + `apt-get install postgresql`
   
-  Version: 9.5
+  + Version: 9.5.5
   
 ### Note
 

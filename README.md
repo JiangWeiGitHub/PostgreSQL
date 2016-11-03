@@ -65,6 +65,10 @@
     
   3. Use pgAdmin 4
   
+    Version: pgadmin4-1.1-x86
+  
+    [*Download Path*](https://ftp.postgresql.org/pub/pgadmin3/pgadmin4/v1.1/windows/pgadmin4-1.1-x86.exe)
+  
     edit postgresql.conf
     
     `listen_addresses = '*'`
